@@ -1,9 +1,9 @@
 import {
   EnumManager, CatManager, DocManager, InfoRegManager, AccumRegManager,
-  DataProcessorsManager, ChartOfCharacteristicManager} from './mngrs';
-import {CatObj, DocObj, DataProcessorObj, RegisterRow} from './objs';
-import {own, alias} from './meta/symbols';
-import {OwnerObj} from './meta/metaObjs';
+  DataProcessorsManager, ChartOfCharacteristicManager} from './mngrs.mjs';
+import {CatObj, DocObj, DataProcessorObj, RegisterRow} from './objs.mjs';
+import {own, alias} from './meta/symbols.mjs';
+import {OwnerObj} from './meta/metaObjs.mjs';
 
 class ManagersCollection extends OwnerObj {
 

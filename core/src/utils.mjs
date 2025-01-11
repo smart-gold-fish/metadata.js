@@ -10,9 +10,17 @@ import {OwnerObj} from './meta/metaObjs.mjs';
 import {own} from './meta/symbols.mjs';
 
 import Aes from '../lib/aes.mjs';
-const {v1: uuidv1} = require('uuid');
-const moment = require('dayjs');
-require('dayjs/locale/ru');
+
+//const {v1: uuidv1} = require('uuid');
+import { v1 as uuidv1 } from 'uuid';
+
+//const moment = require('dayjs');
+import dayjs from 'dayjs';
+const moment = dayjs;
+
+//require('dayjs/locale/ru');
+import 'dayjs/locale/ru.js';
+
 moment.locale('ru');
 moment._masks = {
 	date: 'DD.MM.YY',
