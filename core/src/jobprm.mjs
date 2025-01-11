@@ -1,5 +1,5 @@
-import {OwnerObj} from './meta/metaObjs';
-import {own} from './meta/symbols';
+import {OwnerObj} from './meta/metaObjs.mjs';
+import {own} from './meta/symbols.mjs';
 
 /**
  * Параметры работы программы

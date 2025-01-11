@@ -3,10 +3,10 @@
  *
  */
 
-import {string} from './utils';
-import {own, get, set, hash, notify, mf} from './meta/symbols';
-import {OwnerObj, TypeDef, MetaField} from './meta/metaObjs';
-import {TabularSection} from './tabulars';
+import {string} from './utils.mjs';
+import {own, get, set, hash, notify, mf} from './meta/symbols.mjs';
+import {OwnerObj, TypeDef, MetaField} from './meta/metaObjs.mjs';
+import {TabularSection} from './tabulars.mjs';
 
 class InnerData {
   constructor(owner, loading) {

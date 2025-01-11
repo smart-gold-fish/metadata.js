@@ -3,7 +3,7 @@
  *
  */
 
-import {own, alias} from './meta/symbols';
+import {own, alias} from './meta/symbols.mjs';
 
 
 /**

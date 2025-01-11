@@ -5,12 +5,12 @@
  * @submodule meta_meta
  */
 
-import MetaEventEmitter from './emitter';
-import {DataManager} from '../mngrs';
-import mngrcollections from '../mngrcollections';
-import sys, {sysFields, sysClasses} from '../system';
-import {own} from './symbols';
-import {TypeDef, MetaObj, MetaField, MetaFields, MetaTabulars, OwnerObj} from './metaObjs';
+import MetaEventEmitter from './emitter.mjs';
+import {DataManager} from '../mngrs.mjs';
+import mngrcollections from '../mngrcollections.mjs';
+import sys, {sysFields, sysClasses} from '../system/index.mjs';
+import {own} from './symbols.mjs';
+import {TypeDef, MetaObj, MetaField, MetaFields, MetaTabulars, OwnerObj} from './metaObjs.mjs';
 
 
 /**

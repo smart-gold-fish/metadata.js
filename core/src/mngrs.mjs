@@ -4,11 +4,11 @@
  */
 
 
-import msg from './i18n.ru';
-import MetaEventEmitter from './meta/emitter';
-import {pascalCase} from '../lib/change-case';
+import msg from './i18n.ru.mjs';
+import MetaEventEmitter from './meta/emitter.mjs';
+import {pascalCase} from '../lib/change-case.mjs';
 
-import {own, alias} from './meta/symbols';
+import {own, alias} from './meta/symbols.mjs';
 const string = 'string';
 
 export class Iterator {

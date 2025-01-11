@@ -6,10 +6,10 @@
  * @final
  */
 
-import {OwnerObj} from './meta/metaObjs';
-import {own} from './meta/symbols';
+import {OwnerObj} from './meta/metaObjs.mjs';
+import {own} from './meta/symbols.mjs';
 
-import Aes from '../lib/aes';
+import Aes from '../lib/aes.mjs';
 const {v1: uuidv1} = require('uuid');
 const moment = require('dayjs');
 require('dayjs/locale/ru');

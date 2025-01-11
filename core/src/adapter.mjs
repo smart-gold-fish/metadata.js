@@ -1,7 +1,7 @@
 
-import MetaEventEmitter from './meta/emitter'
-import {OwnerObj} from './meta/metaObjs';
-import {own} from './meta/symbols';
+import MetaEventEmitter from './meta/emitter.mjs'
+import {OwnerObj} from './meta/metaObjs.mjs';
+import {own} from './meta/symbols.mjs';
 
 const auth = {
 

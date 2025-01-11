@@ -4,13 +4,13 @@ import {meta as schemeSettings} from './schemeSettings.mjs';
 import {meta as destinations} from './destinations.mjs';
 import {meta as values} from './propertyValues.mjs';
 import {meta as formulas} from './formulas.mjs';
-import {meta as servers} from './servers';
-import propertiesClasses, {meta as properties} from './properties';
-import predefinedElmntsClasses, {meta as predefinedElmnts} from './predefinedElmnts';
-import accountsClasses, {meta as accounts} from './accounts';
-import usersClasses, {meta as users} from './users';
-import abonentsClasses, {meta as abonents} from './abonents';
-import branchesClasses, {meta as branches} from './branches';
+import {meta as servers} from './servers.mjs';
+import propertiesClasses, {meta as properties} from './properties.mjs';
+import predefinedElmntsClasses, {meta as predefinedElmnts} from './predefinedElmnts.mjs';
+import accountsClasses, {meta as accounts} from './accounts.mjs';
+import usersClasses, {meta as users} from './users.mjs';
+import abonentsClasses, {meta as abonents} from './abonents.mjs';
+import branchesClasses, {meta as branches} from './branches.mjs';
 
 const meta = [
   log,

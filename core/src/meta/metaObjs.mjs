@@ -1,7 +1,7 @@
 
-import {own, alias, get, set} from './symbols';
-import {enmFields} from '../system'
-import {camelCase, pascalCase} from '../../lib/change-case';
+import {own, alias, get, set} from './symbols.mjs';
+import {enmFields} from '../system/index.mjs'
+import {camelCase, pascalCase} from '../../lib/change-case.mjs';
 
 /**
  * Абстрактный класс со ссылкой на владельца

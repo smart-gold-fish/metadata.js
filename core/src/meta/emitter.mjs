@@ -1,7 +1,7 @@
 
 
 import EventEmitter from 'events'
-import {own} from './symbols';
+import {own} from './symbols.mjs';
 
 /**
  * MetaEventEmitter будет прототипом менеджеров данных

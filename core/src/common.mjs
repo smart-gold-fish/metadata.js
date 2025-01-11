@@ -5,13 +5,13 @@
  * @module  metadata
  */
 
-import MetaUtils from './utils';
-import JobPrm from './jobprm';
-import Meta from './meta';
-import msg from './i18n.ru';
-import classes from './classes';
-import * as symbols from './meta/symbols';
-import {DataAdapters} from './adapter';
+import MetaUtils from './utils.mjs';
+import JobPrm from './jobprm.mjs';
+import Meta from './meta/index.mjs';
+import msg from './i18n.ru.mjs';
+import classes from './classes.mjs';
+import * as symbols from './meta/symbols.mjs';
+import {DataAdapters} from './adapter.mjs';
 
 
 /**
