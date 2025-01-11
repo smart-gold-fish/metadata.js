@@ -12,6 +12,7 @@ import msg from './i18n.ru.mjs';
 import classes from './classes.mjs';
 import * as symbols from './meta/symbols.mjs';
 import {DataAdapters} from './adapter.mjs';
+import package_data from '../../package.json' assert { type: 'json' };
 
 
 /**
@@ -86,7 +87,8 @@ class MetaEngine {
   }
 
   get version() {
-    return PACKAGE_VERSION;
+    //return PACKAGE_VERSION;
+    return package_data.version;
   }
 
   toString() {
