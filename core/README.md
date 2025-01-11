@@ -4,6 +4,6 @@ The core of metadata.js
 
 es6 variant
 
-version 3.001.006
+version 3.001.007
 
 
