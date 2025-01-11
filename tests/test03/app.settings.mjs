@@ -72,6 +72,6 @@ function settings(prm = {}) {
         killDelay: 10e3           // Delay between shutdown msg to worker and kill, ms
       },
     });
-};
+}
 
 export default settings;
